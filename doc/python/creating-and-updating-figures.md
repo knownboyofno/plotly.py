@@ -274,7 +274,7 @@ import plotly.express as px
 df = px.data.iris()
 
 fig = px.scatter(df, x="sepal_width", y="sepal_length", color="species", facet_col="species",
-                 title="Adding Traces To Subplots Witin A Plotly Express Figure")
+                 title="Adding Traces To Subplots Within A Plotly Express Figure")
 
 reference_line = go.Scatter(x=[2, 4],
                             y=[4, 8],
